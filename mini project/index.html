@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" href="images/kaethel icon.png">
+        <title>Find Kaethel!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box" style="color:aqua; font-size: 50px; margin: auto; text-align: center;">TRY TO FIND KAE!</div>
+
+        <div class="container-1" style="border: 15px; border-color: white; height: 250px;">
+            <div class= "top-images">
+                <img id="kotak1" src="images/box.png">
+                <img id="kotak2" src="images/box.png">
+                <img id="kotak3" src="images/box.png">
+            </div>
+            <div class= "bottom-images">
+                <img id="salah1" src="images/salah-fix.png" style="opacity: 0;">
+                <img id="salah2" src="images/salah-fix.png" style="opacity: 0;">
+                <img id="salah3" src="images/salah-fix.png" style="opacity: 0;">
+            </div>
+            <div class= "top-button">
+                <button id="btn1" onclick="swapImages1(this)" style="font-size: 140px; color: rgba(0, 0, 0, 0); background-color: rgba(240, 248, 255, 0); border: 0px;">M1</button>
+                <button id="btn2" onclick="swapImages2(this)" style="font-size: 140px; margin-left: 40px; color: rgba(0, 0, 0, 0); background-color: rgba(240, 248, 255, 0); border: 0px;">M1</button>
+                <button id="btn3" onclick="swapImages3(this)" style="font-size: 140px; margin-left: 40px; color: rgba(0, 0, 0, 0); background-color: rgba(240, 248, 255, 0); border: 0px;">M1</button>
+            </div>
+        </div>
+
+        <div class="container-2" style="border: 15px; border-color: white; height: 250px;">
+            <div class= "top-images">
+                <img id="kotak4" src="images/box.png">
+                <img id="kotak5" src="images/box.png">
+                <img id="kotak6" src="images/box.png">
+            </div>
+            <div class= "bottom-images">
+                <img id="salah4" src="images/salah-fix.png" style="opacity: 0;">
+                <img id="salah5" src="images/salah-fix.png" style="opacity: 0;">
+                <img id="salah6" src="images/salah-fix.png" style="opacity: 0;">
+            </div>
+            <div class= "top-button">
+                <button id="btn1" onclick="swapImages4(this)" style="font-size: 140px; color: rgba(0, 0, 0, 0); background-color: rgba(240, 248, 255, 0); border: 0px;">M1</button>
+                <button id="btn2" onclick="document.location= 'rawr.html'" style="font-size: 140px; margin-left: 40px; color: rgba(0, 0, 0, 0); background-color: rgba(240, 248, 255, 0); border: 0px;">M1</button>
+                <button id="btn3" onclick="swapImages6(this)" style="font-size: 140px; margin-left: 40px; color: rgba(0, 0, 0, 0); background-color: rgba(240, 248, 255, 0); border: 0px;">M1</button>
+            </div>
+        </div>
+        
+        <script>
+            function swapImages1(){
+                var img = document.getElementById('kotak1');
+                img.src = 'images/salah-fix.png';
+                return
+            }
+            function swapImages2(){
+                var img = document.getElementById('kotak2');
+                img.src = 'images/salah-fix.png';
+                return
+            }
+            function swapImages3(){
+                var img = document.getElementById('kotak3');
+                img.src = 'images/salah-fix.png';
+                return
+            }
+            function swapImages4(){
+                var img = document.getElementById('kotak4');
+                img.src = 'images/salah-fix.png';
+                return
+            }
+            function showImage(){
+            }
+            function swapImages6(){
+                var img = document.getElementById('kotak6');
+                img.src = 'images/salah-fix.png';
+                return
+            }
+        </script>
+    </body>
+</html>

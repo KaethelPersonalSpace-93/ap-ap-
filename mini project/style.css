@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+    align-items: center;
+}
+.container-1{
+    display: block;
+    justify-content: space-evenly;
+    justify-self: center;
+    position: relative;
+} 
+.container-2{
+    display: block;
+    justify-content: space-evenly;
+    justify-self: center;
+    position: relative;
+} 
+.bottom-images{
+    position: relative;
+}
+.top-images{
+    position: absolute;
+}
+.top-button{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.container-1 img{
+    width: 250px;
+    height: 250px;
+}
+.container-2 img{
+    width: 250px;
+    height: 250px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #650962;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    border-radius: 4px;
+}
+.popup{
+    width: 400px;
+    background: #c3c3c3;
+    border-radius: 6px;
+    position: absolute;
+    justify-self: center;
+    margin-top: 50%;
+    transform: translate(-50% -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #000000;
+}
+.autorotate{
+    animation: autoRotateAnimation;
+    animation-timeline: view();
+}
+@keyframes autoRotateAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
